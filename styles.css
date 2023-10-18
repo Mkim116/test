@@ -1,0 +1,34 @@
+/* Apply styles to the entire page */
+body {
+  font-family: "Times New Roman", Times, serif; /* Change font to Times New Roman */
+  background-color: blue; /* Set background color to blue */
+  color: white; /* Set font color to white */
+}
+
+/* Style the navigation buttons */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center-align the buttons */
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: #333; /* Button background color */
+  color: white; /* Button text color */
+  padding: 10px 20px;
+  border: 1px solid white; /* Add a border to the buttons */
+  border-radius: 5px; /* Rounded button corners */
+  transition: background-color 0.3s, font-size 0.3s; /* Smooth button transitions */
+}
+
+nav a:hover {
+  background-color: #444; /* Button background color on hover */
+  font-size: 18px; /* Increased font size on hover */
+}
